@@ -1,0 +1,22 @@
+2021-04-10 11:37:35.892 [main] INFO  com.zr.springboot.Application - Starting Application using Java 1.8.0_241 on DESKTOP-4FRF9J0 with PID 17268 (E:\JavaProject\SpringBoot\12-springboot-logback\target\classes started by 23634 in E:\JavaProject\SpringBoot\06-springboot-custom-configuration)
+2021-04-10 11:37:35.897 [main] INFO  com.zr.springboot.Application - No active profile set, falling back to default profiles: default
+2021-04-10 11:37:37.499 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-10 11:37:37.512 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-10 11:37:37.514 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-10 11:37:37.515 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-10 11:37:37.667 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-10 11:37:37.667 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1680 ms
+2021-04-10 11:37:37.803 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-04-10 11:37:38.025 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-10 11:37:38.502 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 11:37:38.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-10 11:37:38.866 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-10 11:37:38.880 [main] INFO  com.zr.springboot.Application - Started Application in 3.819 seconds (JVM running for 5.541)
+2021-04-10 11:37:47.246 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 11:37:47.246 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-10 11:37:47.247 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-10 11:37:47.669 [http-nio-8080-exec-1] DEBUG com.zr.springboot.dao.UserDao.selectAll - ==>  Preparing: select id,username,password,status from user 
+2021-04-10 11:37:47.756 [http-nio-8080-exec-1] DEBUG com.zr.springboot.dao.UserDao.selectAll - ==> Parameters: 
+2021-04-10 11:37:47.824 [http-nio-8080-exec-1] DEBUG com.zr.springboot.dao.UserDao.selectAll - <==      Total: 4
+2021-04-10 15:42:50.053 [main] INFO  com.zr.springboot.Application - Starting Application using Java 1.8.0_241 on DESKTOP-4FRF9J0 with PID 16740 (E:\JavaProject\SpringBoot\12-springboot-logback\target\classes started by 23634 in E:\JavaProject\SpringBoot\06-springboot-custom-configuration)
+2021-04-10 15:42:50.067 [main] INFO  com.zr.springboot.Application - No active profile set, falling back to default profiles: default
